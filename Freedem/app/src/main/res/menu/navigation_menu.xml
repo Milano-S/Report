@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/outline_home"
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item android:id="@+id/miSettings"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/settings"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_info"
+        android:id="@+id/nav_info"
+        android:title="About" />
+
+    <item
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+</menu>

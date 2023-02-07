@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Feedem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="inbox">Inbox</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="login_text">Login</string>
+    <string name="login_error">Error signing in</string>
+    <string name="log_out">Logged out</string>
+    <string name="submit">Submit</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="menu_burger">Menu_burger</string>
+    <string name="download_files_over_wi_fi_only">Download Files over Wi-Fi only</string>
+    <string name="issaved">isSaved</string>
+    <string name="customer_reports">Customer Reports:</string>
+    <string name="reports">Reports:</string>
+    <string name="no_inbox">No Inbox Items Available</string>
+    <string name="no_saved">No Saved Items Available</string>
+    <string name="login_empty">Username or Password is Empty</string>
+    <string name="no_wifi">"Download over wi-fi is enabled, inbox items will be downloaded next time device is connected to wifi"</string>
+    <string name="clear_items">Files Saved: 0 files</string>
+    <string name="device_uuid">Device UUID :</string>
+    <string name="fcm_token">FCM Token :</string>
+    <string name="version">Version</string>
+    <string name="version_1_0">Version : 1.0</string>
+
+    <string name="app_drawer">Navigation Drawer</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="n1_management">N1 Management</string>
+    <string name="four_o_four">404 - Oops! The resource you are looking for does not exist.</string>
+    <string name="home">Home</string>
+    <string name="download_inbox_items">Download inbox items</string>
+    <string name="debug">debug</string>
+    <string name="url">Url : %s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="xen4logo">xen4Logo</string>
+    <string name="Hi">Hi, %s</string>
+    <string name="Offline">Offline</string>
+    <string name="forgot_password_detail">Forgot your password? Enter your login or email below. We will send you an email with a link to reset your password.</string>
+    <string name="trouble_accessing_the_system">Trouble accessing the system?</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logo">logo</string>
+    <string name="login_email_address">Login/Email Address</string>
+    <string name="no_task">no_task</string>
+    <string name="no_tasks_available">No Tasks Available</string>
+    <string name="url_https_xen4_uat_azurewebsites_net">Url : https://xen4-uat.azurewebsites.net</string>
+    <string name="svhome">svHome</string>
+</resources>

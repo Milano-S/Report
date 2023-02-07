@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.feedem.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.feedem.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_dayFragment"
+            app:destination="@id/dayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_weekFragment"
+            app:destination="@id/weekFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_monthFragment"
+            app:destination="@id/monthFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_inboxFragment"
+            app:destination="@id/inboxFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dayFragment"
+        android:name="com.example.feedem.fragment.DayFragment"
+        android:label="fragment_day"
+        tools:layout="@layout/fragment_day" >
+        <action
+            android:id="@+id/action_dayFragment_to_reportViewFragment"
+            app:destination="@id/reportViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportViewFragment"
+        android:name="com.example.feedem.fragment.ReportViewFragment"
+        android:label="fragment_report_view"
+        tools:layout="@layout/fragment_report_view" />
+    <fragment
+        android:id="@+id/weekFragment"
+        android:name="com.example.feedem.fragment.WeekFragment"
+        android:label="fragment_week"
+        tools:layout="@layout/fragment_week" >
+        <action
+            android:id="@+id/action_weekFragment_to_reportViewFragment"
+            app:destination="@id/reportViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monthFragment"
+        android:name="com.example.feedem.fragment.MonthFragment"
+        android:label="fragment_month"
+        tools:layout="@layout/fragment_month" >
+        <action
+            android:id="@+id/action_monthFragment_to_customerReportFragment"
+            app:destination="@id/customerReportFragment" />
+        <action
+            android:id="@+id/action_monthFragment_to_reportViewFragment"
+            app:destination="@id/reportViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerReportFragment"
+        android:name="com.example.feedem.fragment.CustomerReportFragment"
+        android:label="fragment_customer_report"
+        tools:layout="@layout/fragment_customer_report" >
+        <action
+            android:id="@+id/action_customerReportFragment_to_reportViewFragment"
+            app:destination="@id/reportViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.example.feedem.fragment.InboxFragment"
+        android:label="fragment_inbox"
+        tools:layout="@layout/fragment_inbox" >
+        <action
+            android:id="@+id/action_inboxFragment_to_reportViewFragment"
+            app:destination="@id/reportViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.example.feedem.fragment.SavedFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved" >
+        <action
+            android:id="@+id/action_savedFragment_to_reportViewFragment"
+            app:destination="@id/reportViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.feedem.fragment.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.feedem.fragment.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
